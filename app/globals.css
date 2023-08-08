@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.game-block {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.game-title {
+  font-weight: bold;
+}
